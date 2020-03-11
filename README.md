@@ -10,15 +10,19 @@ This is the first time I code JS in two years. So it took a lot of time to check
 
 Level 1 need to draw a Matrix View。
 
--  The maximum temperature of Hong Kong from 1997 to 2017 by month: ![level1-1](figure/level1-1.png "Level1-1")
+-  The maximum temperature of Hong Kong from 1997 to 2017 by month: 
+![level1-1](figure/level1-1.png "Level1-1")
 
-- The minimum temperature of Hong Kong from 1997 to 2017 by month:![level1-2](figure/level1-2.png "Level1-2")
+- The minimum temperature of Hong Kong from 1997 to 2017 by month:
+![level1-2](figure/level1-2.png "Level1-2")
 
 Level 2 needs to be improved on the basis of Level 1, adding a line chart of monthly temperature changes. I also added a button to switch the color of the box based on the highest or lowest temperature of the month.
 
-- The minimum temperature of Hong Kong from 2008  to 2017 by month plus line chart in each month. ![level2-1](figure/level2-1.png "Level2-1")
+- The minimum temperature of Hong Kong from 2008  to 2017 by month plus line chart in each month:
+![level2-1](figure/level2-1.png "Level2-1")
 
-- The maximum  temperature of Hong Kong from 2008  to 2017 by month plus line chart in each month. ![level2-2](figure/level2-2.png "Level2-2")
+- The maximum  temperature of Hong Kong from 2008  to 2017 by month plus line chart in each month: 
+![level2-2](figure/level2-2.png "Level2-2")
 
 ## Level 3
 
@@ -42,20 +46,32 @@ Level 3 need to visualize the collaboration relationship between researchers, a 
 
 Level 4 need to visualize and analysis on Spotify's Worldwide Daily Song Ranking music streaming data.
 
-- First, list the top 10 tracks in the global throughout year 2017 with their total stream counts. ![level4-1](figure/top10_track.png "Level4-1")
+- First, list the top 10 tracks in the global throughout year 2017 with their total stream counts. 
+![level4-1](figure/top10_track.png "Level4-1")
 
-- Second, list the top 10 artists (or groups) those has the most stream counts for all their tracks combined, with the stream counts of each of their tracks. ![level4-2](figure/top10_artist_2.png "Level4-2") From this bar chart we can find that Ed Sheeran is a well-deserved Rock Star. Even in the Top 10, he has a large share, but how big is this share? ![level4-3](figure/top10_artist.png "Level4-3")
+- Second, list the top 10 artists (or groups) those has the most stream counts for all their tracks combined, with the stream counts of each of their tracks. 
+![level4-2](figure/top10_artist_2.png "Level4-2") 
+From this bar chart we can find that Ed Sheeran is a well-deserved Rock Star. Even in the Top 10, he has a large share, but how big is this share? 
+![level4-3](figure/top10_artist.png "Level4-3")
+We can find that Ed Sheeran's streams accounts for almost a quarter of the top 10 singers' streams.
 
-  We can find that Ed Sheeran's streams accounts for almost a quarter of the top 10 singers' streams.
-
-- Then list the top 10 tracks in December, 2017 for each continent (North America, Europe, Asia, South America, Oceania). ![level4-4](figure/top10_track_region.png "Level4-4") I used overlapping bar charts to find out if the same song would appear on the Top 10 Ranking of each continent, but unfortunately I did not find a song that was popular in every continent.
-- Finally, plotting the ranking changes of the Ed Sheeran's "Shape of You" alongside with the stream count changes. ![level4-5](figure/ShapeofYou_day.png "Level4-5") At the beginning I chose one day as a unit and analyzed the ranking changes of the Ed Sheeran's "Shape of You" alongside with the stream count changes. But as shown in the figure, the change curve is not smooth enough to make a proper judgment. So I should use one month as a unit later: ![level4-6](figure/ShapeofYou_month.png "Level4-5") This change curve is much smoother, here I find the number of streams reach to peak in March, and the ranking is also the No. 1.
+- Then list the top 10 tracks in December, 2017 for each continent (North America, Europe, Asia, South America, Oceania). 
+![level4-4](figure/top10_track_region.png "Level4-4") 
+I used overlapping bar charts to find out if the same song would appear on the Top 10 Ranking of each continent, but unfortunately I did not find a song that was popular in every continent.
+- Finally, plotting the ranking changes of the Ed Sheeran's "Shape of You" alongside with the stream count changes. 
+![level4-5](figure/ShapeofYou_day.png "Level4-5") 
+At the beginning I chose one day as a unit and analyzed the ranking changes of the Ed Sheeran's "Shape of You" alongside with the stream count changes. But as shown in the figure, the change curve is not smooth enough to make a proper judgment. So I should use one month as a unit later: 
+![level4-6](figure/ShapeofYou_month.png "Level4-5") 
+This change curve is much smoother, here I find the number of streams reach to peak in March, and the ranking is also the No. 1.
 
 ## Level 5
 
 The task is joining the [Dogs vs. Cats](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition) competition in Kaggle. This is a typical binary classification problem, you can get an ideal accuracy rate by building a classic VGG network. Details about data preprocessing and model building and training can be viewed in [notebook](level5/cat&dog.ipynb) and [cede](level5/model.py).
 
-Because there is no GPU available, and my computer's memory is also limited, here is just a training results with a training set of only 2,000 pictures: ![level5-1](figure/level5-1.png "Level5-1")![level5-2](figure/level5-2.png "Level5-2")
+Because there is no GPU available, and my computer's memory is also limited, here is just a training results with a training set of only 2,000 pictures: 
+![level5-1](figure/level5-1.png "Level5-1")
+
+![level5-2](figure/level5-2.png "Level5-2")
 
 The biggest feature of the training curve is overfitting. Later I thought of using a pre-trained network and slowly data augmentation to solve this problem.
 
