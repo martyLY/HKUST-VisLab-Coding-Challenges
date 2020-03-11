@@ -59,9 +59,13 @@ We can find that Ed Sheeran's streams accounts for almost a quarter of the top 1
 ![level4-4](figure/top10_track_region.png "Level4-4") 
 I used overlapping bar charts to find out if the same song would appear on the Top 10 Ranking of each continent, but unfortunately I did not find a song that was popular in every continent.
 - Finally, plotting the ranking changes of the Ed Sheeran's "Shape of You" alongside with the stream count changes. 
+
 ![level4-5](figure/ShapeofYou_day.png "Level4-5") 
+
 At the beginning I chose one day as a unit and analyzed the ranking changes of the Ed Sheeran's "Shape of You" alongside with the stream count changes. But as shown in the figure, the change curve is not smooth enough to make a proper judgment. So I should use one month as a unit later: 
-![level4-6](figure/ShapeofYou_month.png "Level4-5") 
+
+![level4-6](figure/ShapeofYou_month.png "Level4-6") 
+
 This change curve is much smoother, here I find the number of streams reach to peak in March, and the ranking is also the No. 1.
 
 ## Level 5
