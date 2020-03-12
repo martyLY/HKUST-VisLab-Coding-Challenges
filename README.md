@@ -51,21 +51,20 @@ Level 4 need to visualize and analysis on Spotify's Worldwide Daily Song Ranking
 
 - Second, list the top 10 artists (or groups) those has the most stream counts for all their tracks combined, with the stream counts of each of their tracks. 
 ![level4-2](figure/top10_artist_2.png "Level4-2") 
+
 From this bar chart we can find that Ed Sheeran is a well-deserved Rock Star. Even in the Top 10, he has a large share, but how big is this share? 
+
 ![level4-3](figure/top10_artist.png "Level4-3")
 We can find that Ed Sheeran's streams accounts for almost a quarter of the top 10 singers' streams.
 
 - Then list the top 10 tracks in December, 2017 for each continent (North America, Europe, Asia, South America, Oceania). 
 ![level4-4](figure/top10_track_region.png "Level4-4") 
+
 I used overlapping bar charts to find out if the same song would appear on the Top 10 Ranking of each continent, but unfortunately I did not find a song that was popular in every continent.
 - Finally, plotting the ranking changes of the Ed Sheeran's "Shape of You" alongside with the stream count changes. 
-
-![level4-5](figure/ShapeofYou_day.png "Level4-5") 
-
+![level4-5](figure/ShapeOfYou_day.png "Level4-5") 
 At the beginning I chose one day as a unit and analyzed the ranking changes of the Ed Sheeran's "Shape of You" alongside with the stream count changes. But as shown in the figure, the change curve is not smooth enough to make a proper judgment. So I should use one month as a unit later: 
-
-![level4-6](figure/ShapeofYou_month.png "Level4-6") 
-
+![level4-6](figure/ShapeOfYou_month.png "Level4-6") 
 This change curve is much smoother, here I find the number of streams reach to peak in March, and the ranking is also the No. 1.
 
 ## Level 5
